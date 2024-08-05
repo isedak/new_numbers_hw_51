@@ -1,0 +1,54 @@
+.background {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-image: url("./assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 22px;
+    font-weight: 700;
+    position: relative;
+    background: linear-gradient(0deg, rgb(223 11 11) 29%, rgb(238 81 3) 70%);
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 158px;
+    text-shadow: 0 -1px 1px #777;
+    box-shadow: 1px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.button:hover,
+.button:active {
+    background: linear-gradient(0deg, rgb(216, 8, 8) 29%, rgb(243, 83, 3) 70%);
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, .05) inset;
+    top: 0.1em;
+    left: 0.1em;
+}
+
+.balls-row {
+    max-width: 800px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

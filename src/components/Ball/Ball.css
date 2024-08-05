@@ -1,0 +1,40 @@
+.Ball-box {
+    width: 115px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ball-number {
+    font-family: 'Calistoga', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    padding-bottom: 7px;
+}
+
+.blue-ball {
+    background: url('../../assets/img/blue-ball.svg')top /100% 100% no-repeat;
+}
+
+.dark-blue-ball {
+    background: url('../../assets/img/dark-blue-ball.svg')top /100% 100% no-repeat;
+}
+
+.green-ball {
+    background: url('../../assets/img/green-ball.svg')top /100% 100% no-repeat;
+}
+
+.orange-ball {
+    background: url('../../assets/img/orange-ball.svg')top /100% 100% no-repeat;
+}
+
+.red-ball {
+    background: url('../../assets/img/red-ball.svg')top /100% 100% no-repeat;
+}
+
+.violet-ball {
+    background: url('../../assets/img/violet-ball.svg')top /100% 100% no-repeat;
+}
